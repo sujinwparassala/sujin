@@ -1,13 +1,14 @@
 
+<!DOCTYPE html>
 <html>
    <head>
-      <title>sujin.co.in</title>
+      <title>OLIVER.CO.IN</title>
       <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
       <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
    </head>
 
    <body>
-      <div id = "map" style = "width:100px; height: 900px"></div>
+      <div id = "map" style = "width:100%; height: 900px"></div>
       <script>
          // Creating map options
          var mapOptions = {
@@ -26,7 +27,7 @@
 
 	var marker = L.marker([8.3767, 77.1543]);
 	<!--marker.addTo(map);-->
-	marker.bindPopup('sujin.co.in').openPopup();
+	marker.bindPopup('oliver.co.in').openPopup();
 	marker.addTo(map);
 
 	var scale = L.control.scale(); // Creating scale control
