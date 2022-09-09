@@ -6,6 +6,19 @@
 <html>
    <head>
       <title>sujin.co.in</title>
+<style>
+
+.myDiv {
+  border: 5px outset red;
+  background-color:lightgreen; 
+  font-size:18px;   
+ }
+
+
+
+
+
+</style>
       <!--<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>-->
      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
    integrity = "sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
@@ -24,7 +37,23 @@
    </head>
 
    <body>
-      <div id = "map" style = "width: 900px; height: 580px"></div>
+<div class="myDiv">
+  <h1><center>sujin.co.in</center></h1>
+ 
+
+  <b><a href="index.html" >HOME</a></b>
+ <b> <a href="education.html">EDUCATION</a></b>
+  <b><a href="contact.html">CONTACT</a></b>
+ <!--<b><a href="about.html">ABOUT</a></b>-->
+<b><a href="project.html">PROJECTS</a></b>
+<b><a href="photos.html">PHOTOS</a></b>
+<b><a href="resume.html">RESUME</a></b>
+<b><a href="certificate.html">CERTIFICATE</a></b>
+<b><a href="location.html">GISMAP</a></b>
+
+</div>	   
+	   
+      <div id = "map" style = "width: 1000px; height: 580px"></div>
       <script>
          // Creating map options
          var mapOptions = {
