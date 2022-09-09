@@ -1,13 +1,5 @@
 <html>
 <head>
-  
-<link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
-<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-  
-  
-  
-  
-  
 <style>
 
 .myDiv {
@@ -108,36 +100,6 @@ float:left;
 
 
 <h1><center>CONTACTS</center></h1>
-  
-  
-  <div id = "map" style = "width:100%; height: 480px"></div>
-      <script>
-         // Creating map options
-         var mapOptions = {
-            center: [8.5062, 76.9624],
-            zoom: 10
-         }
-         
-         // Creating a map object
-         var map = new L.map('map', mapOptions);
-         
-         // Creating a Layer object
-         var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
-         
-         // Adding layer to the map
-         map.addLayer(layer);
-
-	var marker = L.marker([8.5062, 76.9624]);
-	<!--marker.addTo(map);-->
-	marker.bindPopup('sujin.co.in').openPopup();
-	marker.addTo(map);
-
-	var scale = L.control.scale(); // Creating scale control
-         scale.addTo(map); // Adding scale control to the map
-      </script>
-  
-  
-  
 <img class=photo src="https://sujinbucket.s3.ap-south-1.amazonaws.com/map.png" alt="NO IMAGE FOUND" >
 <div class=fb > Kerala, Thiruvananthapuram</div></p>
 
@@ -165,6 +127,9 @@ float:left;
 
 <p><img class=pho src="https://sujinbucket.s3.ap-south-1.amazonaws.com/wordpress.jpg" alt="Forest" ></p>
 <div class=fb ><a href="http://parassalaorg.wordpress.com"> http://parassalaorg.wordpress.com</a></div></p>
+
+
+
 
 
 
